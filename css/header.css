@@ -1,0 +1,169 @@
+html {
+	width: 100%;
+	height: 100%;
+	color: #421b1b;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font: 12px tahoma, Arial, Verdana, sans-serif;
+	background-image: url(../img/body.jpg)
+}
+
+textarea {
+	resize: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+th {
+	text-align: left;
+}
+
+a {
+	color: #4D4D4D;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+img {
+	vertical-align: middle;
+	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic;
+	border: 0px;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, strong, em, b {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+.header {
+	margin-bottom: 0px;
+}
+
+.header .top {
+	height: 30px;
+	line-height: 30px;
+	background-color: #d3cfcf;
+}
+
+.header .topNav {
+	width: 1190px;
+	margin: 0px auto;
+}
+
+.header .topNav .headerName {
+	margin-right: 10px;
+}
+
+.topNav-1{
+	float: left;
+}
+
+.topNav-2{
+	float: right;
+}
+.mshoplink{
+	color:rgb(59, 104, 116);
+}
+.mshoplink:hover{
+	font-weight:bold;
+}
+
+.header .topNav .headerCart {
+	min-width: 60px;
+	padding-left: 30px;
+	color: #ff0000;
+}
+
+.header .topNav .headerCart a {
+	margin: 0px;
+}
+
+.header .topNav .headerCart em {
+	color: #dfb0c2;
+}
+
+.header .topNav li {
+	float: left;
+	color: #dddddd;
+}
+
+.header .topNav li span {
+	margin-right: 20px;
+	color: #666666;
+}
+
+.header .topNav li a {
+	margin: 0px 8px;
+	color: #888888;
+}
+
+.header .topNav li a:hover {
+	color: #ff6600;
+}
+
+span.requiredField {
+	line-height: 28px;
+	margin-right: 2px;
+	color: #ff6d6d;
+	font-size: 10px;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, select, button, th, td, p, hr, blockquote, pre, code {
+	padding: 0px;
+	margin: 0px;
+}
+
+.search2{
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	margin-left: 70px;
+}
+
+.keyword{
+	maxlength:30;
+}
+
+.nivoslider img{
+	width:835px;
+	height:400px; 
+}
+
+.row{
+	margin-bottom:10px; 
+	margin-top: 10px;
+}
+
+.cbookdiv a{
+	margin-left: 5px;
+}
+
+.newArticle li a{
+	cursor:pointer;
+}

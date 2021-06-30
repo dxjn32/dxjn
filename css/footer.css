@@ -1,0 +1,72 @@
+.footer {
+	background-color:  #fafafa;
+}
+
+.footer .service {
+	width: 1000px;
+	padding: 30px 0px;
+	margin: 0px auto;
+}
+
+.footer .service dl {
+	width: 200px;
+	float: left;
+	padding: 50px 20px;
+}
+
+.footer .service dt {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 40px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+
+.footer .service dd {
+	line-height: 26px;
+	padding-left: 40px;
+}
+
+.footer .service dd a {
+	color: #888888;
+}
+
+.footer .service .qrCode {
+	float: left;
+	padding: 20px 0px 20px 20px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	border-left: 1px solid #e1e1e1;
+}
+
+.footer .service .qrCode img {
+	display: block;
+}
+
+.footer .bottom {
+	padding: 20px 0px;
+	border-top: 1px solid #e5e5e5;
+	background-color: #f5f5f5;
+}
+
+.footer .bottomNav {
+	line-height: 30px;
+	text-align: center;
+}
+
+.footer .bottomNav ul {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.footer .bottomNav li {
+	float: left;
+}
+
+.footer .bottomNav li a {
+	margin: 0px 10px;
+}
+

@@ -1,0 +1,495 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>我的书屋</title>
+    <link href="./css/header.css" rel="stylesheet" >
+    <link href="./css/container.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 页眉区header -->
+    <div class="header">
+        <!-- 页眉区的上部top -->
+        <div class="top">
+            <!-- 页眉区上部的导航topNav，内部又分为两个部分topNav-1和topNav-2 -->
+            <div class = "topNav">
+                <ul class = "topNav-1">
+                    <li>
+                        <span>欢迎来到我的书屋！</span>
+                        <span id="headerName" class="headerName">&nbsp;</span>
+                    </li>
+                    <li id="headerLogin" class="headerLogin">
+                        <a>登录 | 注册</a>|
+                    </li>
+                    <li id="headerLogout" class="headerLogout">
+                        <a>[退出]</a>
+                    </li>
+                </ul>
+                <!-- end of topNav-1 -->
+                <ul class = "topNav-2">
+                    <li>
+                        <a>关于屋主</a>|
+                    </li>
+                            <li>
+                                <a>我的书架</a>|
+                            </li>
+                            <li>
+                                <a>购买图书</a>|
+                            </li>
+                            <li>
+                                <a>会员中心</a>|
+                            </li>
+                            <li>
+                                <a>帮助中心</a>|
+                            </li>
+                    <li id="headerCart" class="headerCart">
+                        <a>购物车</a>
+                    </li>
+                </ul>
+                <!-- end of topNav-2 -->
+            </div>
+        </div>
+        <!-- end of top -->
+        <!-- 页眉的内容区container -->
+        <div class="container">
+            <div class="row">
+                <div class="span3">
+                    <a>
+                        <img src="./img/logo.png"/>
+                    </a>
+                </div>
+                <div class="span8">
+                    <div class="search">
+                        <form id="productSearchForm" action="/product/search" method="get">
+                            <input name="keyword" class="keyword" value="商品搜索" autocomplete="off" x-webkit-speech="x-webkit-speech" x-webkit-grammar="builtin:search">
+                            <button type="submit">&nbsp;</button>
+                        </form>
+                    </div>
+                    <div class="search2">
+                            &nbsp;热门搜索:&nbsp;
+                                <a>墨香铜臭&nbsp;</a>
+                                <a>Priest&nbsp;</a>
+                                <a>木苏里</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span11">
+                    <dl class="mainNav">
+                        <dt>
+                            <a>所有商品分类</a>
+                        </dt>
+                                <dd>
+                                    <a>首页</a>
+                                </dd>
+                                <dd>
+                                    <a>强推图书</a>
+                                </dd>
+                                <dd>
+                                    <a>创意礼品</a>
+                                </dd>
+                                <dd>
+                                    <a>强推图书</a>
+                                </dd>
+                                <dd>
+                                    <a>创意礼品</a>
+                                </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- end of container -->
+    </div>
+    <!-- end of header -->
+    <!-- 内容区1container，包含3个部分 -->
+    <div class="container">
+        <div class="one">
+            <div class="menu">
+                <li class="li">
+                    <a class="a">木苏里</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">墨香铜臭</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">Priest</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">巫哲</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">酥油饼</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">关心则乱</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">三水小草</a>
+                </li>
+            </div>
+        </div>
+
+        <div class="two">
+            <div class="menu">
+                <li class="li">
+                    <a class="a">《某某》</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">《魔道祖师》</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">《杀破狼》</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">《撒野》</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">《幽灵酒店》</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">《海棠依旧》</a>
+                </li>
+            </div>
+            <div class="menu">
+                <li class="li">
+                    <a class="a">《心有不甘》</a>
+                </li>
+            </div>
+        </div>
+        <div class="three">
+            <div class="index">
+                <div class="row">
+                    <div class="span9">       
+                        <div id="nivoslider" class="nivoslider">
+                            <span>
+                                <img src="./img/flow2 (1).jpg"  alt="盛文四月书单" title="盛文四月书单">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of container -->
+    <!-- 页眉的内容区2container，包含4个部分 -->
+    <div class="container">
+        <div class="shelfone">
+            <div class="row">
+                <div class="span9">
+                    <div class="bookshelf">
+                        <div class="titlebar">
+                            <div class="maintitle">热门书单</div>
+                            <div class="labeldiv">
+                                <div class="c4" style="cursor:pointer">育儿图书</div>
+                                <div class="c3" style="cursor:pointer">散文文学</div>
+                                <div class="c2" style="cursor:pointer">小说文学</div>
+                                <div class="c1" style="cursor:pointer">古典文学</div>
+                            </div>
+                        </div>
+                        <div class="bookbox">
+                            <div class="cbook">
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典1.jpg">
+                                    </div>
+                                    <div class="namediv">西厢记</div>
+                                    </a>
+                                    <div class="pricediv">￥47.2 <del>59</del></div>
+                                </div>
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典2.jpg">
+                                    </div>
+                                    <div class="namediv">古典2</div>
+                                    </a>
+                                    <div class="pricediv">￥60.73 <del>69.8</del></div>
+                                </div>
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典3.jpg"/>
+                                    </div>
+                                    <div class="namediv">古典3</div>
+                                    </a>
+                                    <div class="pricediv">￥67.2 <del>84</del></div>
+                                </div>
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典4.jpg"/>
+                                    </div>
+                                    <div class="namediv">古典4</div>
+                                    </a>
+                                    <div class="pricediv">￥28.8 <del>36</del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shelftwo">
+            <div class="newArticle">
+                <ul class="tab">
+                        <li>
+                            <a style="cursor:pointer">活动一览</a>
+                        </li>
+                        <li>
+                            <a style="cursor:pointer">通知公告</a>
+                        </li>
+                </ul>
+                <ul class="tabContent">
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                </ul>
+                <ul class="tabContent hidden">
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="shelfone">
+            <div class="row">
+                <div class="span9">
+                    <div class="bookshelf">
+                        <div class="titlebar">
+                            <div class="maintitle">热门书单</div>
+                            <div class="labeldiv">
+                                <div class="c4" style="cursor:pointer">育儿图书</div>
+                                <div class="c3" style="cursor:pointer">散文文学</div>
+                                <div class="c2" style="cursor:pointer">小说文学</div>
+                                <div class="c1" style="cursor:pointer">古典文学</div>
+                            </div>
+                        </div>
+                        <div class="bookbox">
+                            <div class="cbook">
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典1.jpg">
+                                    </div>
+                                    <div class="namediv">西厢记</div>
+                                    </a>
+                                    <div class="pricediv">￥47.2 <del>59</del></div>
+                                </div>
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典2.jpg">
+                                    </div>
+                                    <div class="namediv">古典2</div>
+                                    </a>
+                                    <div class="pricediv">￥60.73 <del>69.8</del></div>
+                                </div>
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典3.jpg"/>
+                                    </div>
+                                    <div class="namediv">古典3</div>
+                                    </a>
+                                    <div class="pricediv">￥67.2 <del>84</del></div>
+                                </div>
+                                <div class="cbookdiv">
+                                    <a>
+                                    <div class="imgdiv">
+                                        <img src="./img/古典4.jpg"/>
+                                    </div>
+                                    <div class="namediv">古典4</div>
+                                    </a>
+                                    <div class="pricediv">￥28.8 <del>36</del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shelftwo">
+            <div class="newArticle">
+                <ul class="tab">
+                        <li>
+                            <a>活动一览</a>
+                        </li>
+                        <li>
+                            <a>通知公告</a>
+                        </li>
+                </ul>
+                <ul class="tabContent">
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                    <li>
+                        <a>木苏里代表作《某某》</a>
+                    </li>
+                </ul>
+                <ul class="tabContent hidden">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of container -->
+    <!-- 页眉的内容区3container -->
+    <div class="container">
+        <li>
+            <a><img src="./img/chenqingling.jpg"/></a>
+            <a><img src="./img/wanning1.jpg"/></a>
+        </li>
+    </div>
+    <!-- end of container -->
+    <!-- 页脚区footer -->
+    <div class="footer">
+        <div class="service clearfix">
+            <dl>
+                <dt>新手指南</dt>
+                
+                <dd>
+                    <a>验货与签收</a>
+                </dd>
+                <dd>
+                    <a>常见问题</a>
+                </dd>
+                <dd>
+                    <a>隐私政策</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>特色服务</dt>
+                <dd>
+                    <a>联系我们</a>
+                </dd>
+                <dd>
+                    <a>客户服务</a>
+                </dd>
+                <dd>
+                    <a>大宗采购</a>
+                </dd>
+                
+                
+            </dl>
+            <dl>
+                <dt>支付方式</dt>
+                <dd>
+                    <a>支付宝</a>
+                </dd>
+                <dd>
+                    <a>微信</a>
+                </dd>
+                <dd>
+                    <a>银行卡</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>配送方式</dt>
+                <dd>
+                    <a>运费标准</a>
+                </dd>
+                <dd>
+                    <a>配送时间</a>
+                </dd>
+                <dd>
+                    <a>配送范围</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="bottom">
+            <div class="bottomNav">
+                <ul>
+                            <li>
+                                <a>关于我们</a>
+                                |
+                            </li>
+                            <li>
+                                <a>联系我们</a>
+                                |
+                            </li>
+                            <li>
+                                <a>诚聘英才</a>
+                                |
+                            </li>
+                            <li>
+                                <a >隐私政策</a>
+                                |
+                            </li>
+                            <li>
+                                <a>法律声明</a>
+                                |
+                            </li>
+                            <li>
+                                <a>客户服务</a>
+                                |
+                            </li>
+                            <li>
+                                <a>友情链接</a>
+                                
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of footer -->
+</body>
+</html>

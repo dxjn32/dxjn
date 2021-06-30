@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+nav{
+    background-image: url(../img/begin.jpg) ;
+    position: fixed;
+    height: 100px;
+    z-index: 550;
+    width: 100%;
+    border: 1px solid azure;
+    margin-bottom: 50px;
+}
+
+div#topnav{
+    margin-left: 0 auto;
+    padding-top: 60px;
+    width: 1046px;
+    position: relative;
+}
+
+.top-nav{
+    float: left;
+    padding-left: 140px;
+    margin-top: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav-list{
+    float: left;
+    position: relative;
+    margin-left: 70px;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+
+.nav-list a{
+    position: relative;
+    display: inline-block;
+    padding: 0 10px 0 33px;
+    line-height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1px;
+    color: rgb(180, 162, 162);
+    font-weight: bold;
+    font-family: Simsun;
+    font-size: 16px;
+}
+
+.top-exit{
+    float: right;
+    line-height: 41px;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+.top-home{
+    padding: 0 5px;
+    text-decoration: none;
+    height: 41px;
+    max-width: 86px;
+    float: left;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.top-img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 2px;
+    vertical-align: top;
+    margin-top: 9px;
+}
+
+.top-name{
+    text-align: center;
+    max-width: 70px;
+    display: inline-block;
+    overflow: hidden;
+    color: rgb(180, 162, 162);
+    font-weight: bold;
+    font-family: Simsun;
+    font-size: 16px;
+}
+
+.top-img1{
+    width: 24px;
+    height: 25px;
+    margin-right: 8px;
+    margin-right: 8px;
+    border-radius: 2px;
+    vertical-align: top;
+    margin-top: 9px;
+    margin-left: 30px;
+}
+
+div#next{
+    background: url(../img/scenery.jpg) no-repeat center 0;
+    background-size: 100% 100%;
+    height: 1025px;
+    padding-top: 41px;
+}
+
+#next-head-inner h1{
+    color: rgb(58, 58, 110);
+    padding-left: 180px;
+    font-family: Simsun;
+    font-weight: bolder;
+}
+
+.h1-img{
+    margin-left: 180px;
+    border:  3px solid  rgb(220, 226, 245);
+    float: left;
+}
+
+.intro span{
+    font-size: 22px;
+    font-family: Simsun;
+    color: rgb(58, 58, 110);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.grade{
+    margin-left: 370px;
+    margin-top: 10px;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.grade-img{
+    float: left;
+    margin-right: 20px;
+}
+
+.grade span{
+    font-size: 18px;
+    color:rgb(58, 58, 110);
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 60px;
+    border: 2px dashed rgb(220, 226, 245);
+    letter-spacing: 0.5em;
+}
+
+.sex{
+    float: right;
+    margin-right: 820px;
+}
+
+
+div#text{
+    padding-top: 60px;
+}
+
+div#next-text{
+    margin-bottom: 0!important;
+    word-break: normal;
+    word-wrap: break-word;
+    border: 0.5px solid#DDDDDD;
+    margin: 100px 270px 0 270px;
+}
+
+.text-t{
+    height: 37px;
+    padding: 0 ;
+    line-height: 37px;
+    background-color: #F0F0F0;
+}
+
+.text-t h3{
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+div#left{
+    width: 210.5px;
+    float: left;
+    padding-bottom: 10px;
+    border-top: 0 none;
+    border-bottom: 0 none;
+    border-left: 0 none;
+    background-color: white;
+    height: 590px;
+    border-right: 1px solid#DDDDDD;;
+}
+
+.left-img{
+    margin: 20px;
+    border: 2px solid white;
+}
+
+div#right{
+    background-color: white;
+    float: right;
+    height: 600px;
+    width: 766px;
+}
+
+.right-top{
+    padding-top: 40px;
+}
+
+.name{
+    float: left;
+}
+.right-top strong{
+    padding-left: 32px;
+    font-size: 16px;
+}
+
+.right-bottom{
+    margin-top: 40px;
+}
+
+.ti h4{
+    text-indent: 2em;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.list2 ul{
+    margin-bottom: 14px;
+}
+
+.list2 li{
+    list-style: none;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.list2 li label{
+    float: left;
+    
+}
+
+.list2 li div{
+    line-height: 22px;
+    margin-left: 120px;
+}
+
+footer {
+	background-color:  #fafafa;
+}
+
+.bottomNav {
+	line-height: 30px;
+	text-align: center;
+}
+
+.bottomNav ul {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bottomNav li {
+	float: left;
+}
+
+.bottomNav li a {
+	margin: 0px 10px;
+}
