@@ -308,7 +308,7 @@ div#right{
     background-color: white;
     width: 800px;
     margin-left: 500px;
-    margin-right: 200px;
+    /* margin-right: 200px; */
 }
 
 .right-top{

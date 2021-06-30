@@ -216,9 +216,10 @@ div#left{
 
 div#right{
     background-color: white;
-    float: right;
+    /* float: right; */
     height: 600px;
     width: 766px;
+    margin-left: 212px;
 }
 
 .right-top{
